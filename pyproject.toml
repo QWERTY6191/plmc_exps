@@ -1,0 +1,15 @@
+
+[project]
+name = "plmc_exps"
+version = "0.1.0"
+description = "Python project implementaing and testing the Projected Linear Model of Co-regionalization"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "gpytorch==1.15.2",
+    "torch>=2.3.1",
+    "psutil",
+    "pandas",
+    "matplotlib",
+]
+
