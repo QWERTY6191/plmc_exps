@@ -2,18 +2,19 @@
 
 ## Setup
 
-1. Create a virtual environment:
-```bash
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-```
+Recommanded setup is with uv : clone the repository, then run "uv venv" and "uv sync" inside it to setup the environment.
 
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+## Running scripts
 
-3. Run the project:
-```bash
-python -m package_name
-```
+All experiments can be ran by running the corresponding python script, e.g with 'uv run sarcos.py'.
+
+There is a block of commented lines at the beginning of synth_data_exps.py ; uncomment the desired line to run the corresponding experiment.
+
+The available experiments are:
+
+synth_data_exps.py
+sarcos.py
+bramblemet.py
+neutronics.py
+ship_maintenance.py
+dummy_al_neutro.py
